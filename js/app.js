@@ -10,7 +10,7 @@
 
     buttonContainer.addEventListener('click', (e) =>{
         e.preventDefault();
-        changeValue(e.target);
+        changeValue(e.target)
     })
 
     function changeValue(target){
